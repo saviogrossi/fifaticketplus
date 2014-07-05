@@ -1,0 +1,13 @@
+{
+  "name": "fifaticketplus",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "^4.5.0",
+    "body-parser": "^1.4.3",
+    "express3-handlebars": "^0.5.0",
+    "corser": "^2.0.0",
+    "nconf": "^0.6.9",
+    "mongoose": "^3.8.12",
+    "underscore": "^1.6.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+
+    "metaadmin": {
+       "token": "TEST-SuperAdminAuth"
+    },
+
+    "db": {
+       "user": "",
+       "pass": "",
+       "host": "localhost",
+       "port": "27017",
+       "database": "fifaticketplus_test"
+    }
+	
+}

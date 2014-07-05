@@ -1,0 +1,71 @@
+{
+    "context": {
+       "base_web_url": "http://localhost:3000"
+    },
+    
+    "metaadmin": {
+       "token": "SUPER_SECRET"
+    },
+    
+    "db": {
+       "user": "",
+       "pass": "",
+       "host": "localhost",
+       "port": "27017",
+       "database": "fifaticketplus"
+    },
+
+	"aws": {
+	   "client_secret_key": "KCuCj35z3PKNXCPVXcshiDewn1dElDEhBv1o/XOg",
+	   "access_key": "AKIAIVEHW6Q7DL7QAJOA",
+	   "secret_key": "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",
+	   "s3": {
+	       "bucket": "assets-dev.fifaticketplus.com"
+	   }
+	},
+
+	"newrelic": {
+	    "agent_enabled" : false,
+		"app_name"      : ["fifaticketplus"],
+		"license_key"   : ""
+	},
+
+
+	"mailing": {
+	   "off": false,
+	   "smtp": {
+	       "host"  : "smtp.mandrillapp.com",
+	       "useSSL": false,
+	       "port"  : "587",
+	       "user"  : "savio@rapidoware.com.br",
+	       "pass"  : "iBbGni5L5GWLez7pVT7qXw" 
+	   },
+	   "url_ativacao" : "/#verifypassword/:user_id/:token",
+	   "context" : "(localhost)",
+	   "from": {
+	       "default": "\"fifaticketplus(<%=context%>)\" <noreply+<%=hash%>@rapidoware.com.br>"
+	   },
+	   "test_to": "tests+<%=original_to%>@rapidoware.com.br", 
+	   "bcc"    : "savio+pick+<%=original_to%>@rapidoware.com.br",
+	   "templates": {
+		   "welcome": {
+		       "pt_br": {
+		          "subject": "Seja bem-vindo, <%=username%>! Ative agora seu usuário!",
+		          "file": "welcome/pt_br/welcome-mail.html",
+		          "attachments": [
+		              {
+				        "filename": "header.jpg",
+				        "filePath": "/Users/saviogrossi/git/pertoo/lib/pertoo/assets/mailing/welcome/pt_br/",
+				        "cid": "header@jpg"
+				      },
+		              {
+				        "filename": "rodape.jpg",
+				        "filePath": "/Users/saviogrossi/git/pertoo/lib/pertoo/assets/mailing/welcome/pt_br/",
+				        "cid": "rodape@jpg"
+				      }
+				  ]
+		       }
+		   }
+	   }
+	}
+}
