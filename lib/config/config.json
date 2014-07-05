@@ -16,9 +16,9 @@
     },
 
 	"aws": {
-	   "client_secret_key": "KCuCj35z3PKNXCPVXcshiDewn1dElDEhBv1o/XOg",
-	   "access_key": "AKIAIVEHW6Q7DL7QAJOA",
-	   "secret_key": "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",
+	   "client_secret_key": "",
+	   "access_key": "",
+	   "secret_key": "",
 	   "s3": {
 	       "bucket": "assets-dev.fifaticketplus.com"
 	   }
