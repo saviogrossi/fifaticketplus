@@ -8,6 +8,7 @@
     "corser": "^2.0.0",
     "nconf": "^0.6.9",
     "mongoose": "^3.8.12",
-    "underscore": "^1.6.0"
+    "underscore": "^1.6.0",
+    "mandrill-api": "^1.0.40"
   }
 }
